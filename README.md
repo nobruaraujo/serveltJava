@@ -6,6 +6,8 @@ O que é um Servlet?
 
 Em outras palavras, uma servlet é um objeto Java que podemos chamar a partir de uma requisição HTTP.
 
+![image](https://user-images.githubusercontent.com/49958155/144681482-f2bfa64e-f648-41be-b9eb-d9f308f95a1d.png)
+
 Quando o Tomcat recebe a requisição do navegador com relação aos dados do projeto gerenciador, ao abrirmos a página não estamos mais lidando com um arquivo, mas com um Servlet. Isto é, um objeto especial executado para gerar uma resposta HTTP dinâmica.
 
 O termo let de Servlet é um sufixo diminutivo no inglês, e uma tradução livre seria algo como "Servidorzinho". A ideia é que o Tomcat é um servidor principal, e o Servlet opera de forma semelhante e auxiliar, afinal ele pode receber requisições e gerar respostas dinâmicas por meio do protocolo HTTP.
