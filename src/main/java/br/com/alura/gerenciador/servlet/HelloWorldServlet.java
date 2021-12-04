@@ -8,11 +8,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns ="/helloworld")
+@WebServlet("/helloworld")
 public class HelloWorldServlet extends HttpServlet {
 	
 	@Override
-	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException{
+	protected void service(HttpServletRequest req, HttpServletResponse resp) 
+			throws IOException{
 		
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
